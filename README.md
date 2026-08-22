@@ -6,13 +6,13 @@ A collection of hands-on networking labs built with Cisco Packet Tracer. The rep
 
 | # | File | Main topic |
 |---:|---|---|
-| 1 | [`labs/01-routing-basics.pkt`](labs/01-routing-basics.pkt) | Router configuration and IP connectivity |
-| 2 | [`labs/02-routing-and-network-services.pkt`](labs/02-routing-and-network-services.pkt) | Extended routing and network services practice |
-| 3 | [`labs/03-network-services-task.pkt`](labs/03-network-services-task.pkt) | Packet Tracer networking task |
+| 1 | [`labs/01-telnet-ssh-remote-access-basic.pkt`](labs/01-telnet-ssh-remote-access-basic.pkt) | Basic Telnet and SSH remote-access topology |
+| 2 | [`labs/02-ospf-tftp-ios-management.pkt`](labs/02-ospf-tftp-ios-management.pkt) | OSPF connectivity, TFTP server access, and Cisco IOS management |
+| 3 | [`labs/03-ipv6-ripng-routing.pkt`](labs/03-ipv6-ripng-routing.pkt) | IPv6 addressing and dynamic routing with RIPng |
 | 4 | [`labs/04-spanning-tree-protocol.pkt`](labs/04-spanning-tree-protocol.pkt) | STP topology and loop prevention |
 | 5 | [`labs/05-vlan-trunk-telnet-port-security.pkt`](labs/05-vlan-trunk-telnet-port-security.pkt) | VLANs, trunking, Telnet, and switch port security |
-| 6 | [`labs/06-telnet-and-ssh-remote-access.pkt`](labs/06-telnet-and-ssh-remote-access.pkt) | Telnet and SSH remote device administration |
-| 7 | [`labs/07-multi-branch-enterprise-network.pkt`](labs/07-multi-branch-enterprise-network.pkt) | Multi-branch topology and shared network services |
+| 6 | [`labs/06-telnet-ssh-remote-access-task.pkt`](labs/06-telnet-ssh-remote-access-task.pkt) | Telnet and SSH remote device administration task |
+| 7 | [`labs/07-two-branch-network-services.pkt`](labs/07-two-branch-network-services.pkt) | Two-branch WAN with DHCP, DNS, HTTPS, and FTP services |
 | 8 | [`docs/windows-network-security-lab.pdf`](docs/windows-network-security-lab.pdf) | Email service, malware checking, firewall rules, Nmap scanning, and RDP |
 
 ## Topics Covered
@@ -20,6 +20,8 @@ A collection of hands-on networking labs built with Cisco Packet Tracer. The rep
 - IPv4 addressing and subnet configuration
 - Router and switch CLI configuration
 - Static and dynamic routing practice
+- IPv6 addressing and RIPng
+- OSPF routing and Cisco IOS management through TFTP
 - Spanning Tree Protocol (STP)
 - VLAN creation and trunk links
 - Telnet and SSH remote access
@@ -27,6 +29,24 @@ A collection of hands-on networking labs built with Cisco Packet Tracer. The rep
 - DHCP, DNS, HTTP/HTTPS, and FTP services
 - Multi-branch network design
 - Windows Firewall and basic Nmap reconnaissance
+
+## Topology Previews
+
+### Telnet and SSH Remote Access
+
+![Telnet and SSH remote-access topology](assets/telnet-ssh-remote-access.png)
+
+### OSPF, TFTP, and IOS Management
+
+![OSPF and TFTP network topology](assets/ospf-tftp-ios-management.png)
+
+### IPv6 RIPng Routing
+
+![IPv6 RIPng routing topology](assets/ipv6-ripng-routing.png)
+
+### Two-Branch Network Services
+
+![Two-branch network services topology](assets/two-branch-network-services.png)
 
 ## Requirements
 
@@ -46,6 +66,7 @@ A collection of hands-on networking labs built with Cisco Packet Tracer. The rep
 ```text
 .
 ├── labs/     # Cisco Packet Tracer lab files
+├── assets/   # Topology preview images
 ├── docs/     # Supporting lab documentation
 └── README.md
 ```
